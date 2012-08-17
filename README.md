@@ -1,0 +1,4 @@
+sendrawpdu
+==========
+
+CLI tool to send raw SMS PDU data to the iPhone 4 baseband
