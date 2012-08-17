@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EBAC93915DEAFE400BEAA6F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EBAC93815DEAFE400BEAA6F /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EBAC93115DEAFE400BEAA6F /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		0EBAC93215DEAFE400BEAA6F /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		0EBAC93415DEAFE400BEAA6F /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		0EBAC93715DEAFE400BEAA6F /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; name = 0xdeadfa11; path = Package/usr/bin/0xdeadfa11; sourceTree = "<group>"; };
+		0EBAC93815DEAFE400BEAA6F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EBAC92B15DEAFE400BEAA6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EBAC92315DEAFE400BEAA6F = {
+			isa = PBXGroup;
+			children = (
+				0EBAC92E15DEAFE400BEAA6F /* sendrawpdu */,
+			);
+			sourceTree = "<group>";
+		};
+		0EBAC92E15DEAFE400BEAA6F /* sendrawpdu */ = {
+			isa = PBXGroup;
+			children = (
+				0EBAC93815DEAFE400BEAA6F /* main.c */,
+				0EBAC92F15DEAFE400BEAA6F /* Package */,
+				0EBAC93315DEAFE400BEAA6F /* Supporting Files */,
+			);
+			path = sendrawpdu;
+			sourceTree = "<group>";
+		};
+		0EBAC92F15DEAFE400BEAA6F /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				0EBAC93015DEAFE400BEAA6F /* DEBIAN */,
+				0EBAC93515DEAFE400BEAA6F /* usr */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		0EBAC93015DEAFE400BEAA6F /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				0EBAC93115DEAFE400BEAA6F /* control.txt */,
+				0EBAC93215DEAFE400BEAA6F /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		0EBAC93315DEAFE400BEAA6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EBAC93415DEAFE400BEAA6F /* PackageVersion.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EBAC93515DEAFE400BEAA6F /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				0EBAC93615DEAFE400BEAA6F /* bin */,
+			);
+			name = usr;
+			sourceTree = "<group>";
+		};
+		0EBAC93615DEAFE400BEAA6F /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				0EBAC93715DEAFE400BEAA6F /* 0xdeadfa11 */,
+			);
+			name = bin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EBAC92D15DEAFE400BEAA6F /* sendrawpdu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EBAC93C15DEAFE400BEAA6F /* Build configuration list for PBXNativeTarget "sendrawpdu" */;
+			buildPhases = (
+				0EBAC92A15DEAFE400BEAA6F /* Sources */,
+				0EBAC92B15DEAFE400BEAA6F /* Frameworks */,
+				0EBAC92C15DEAFE400BEAA6F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sendrawpdu;
+			productName = sendrawpdu;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EBAC92515DEAFE400BEAA6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = pod2g;
+			};
+			buildConfigurationList = 0EBAC92815DEAFE400BEAA6F /* Build configuration list for PBXProject "sendrawpdu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0EBAC92315DEAFE400BEAA6F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EBAC92D15DEAFE400BEAA6F /* sendrawpdu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EBAC92C15DEAFE400BEAA6F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EBAC92A15DEAFE400BEAA6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBAC93915DEAFE400BEAA6F /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0EBAC93A15DEAFE400BEAA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		0EBAC93B15DEAFE400BEAA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		0EBAC93D15DEAFE400BEAA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /usr/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+		0EBAC93E15DEAFE400BEAA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /usr/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EBAC92815DEAFE400BEAA6F /* Build configuration list for PBXProject "sendrawpdu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EBAC93A15DEAFE400BEAA6F /* Release */,
+				0EBAC93B15DEAFE400BEAA6F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EBAC93C15DEAFE400BEAA6F /* Build configuration list for PBXNativeTarget "sendrawpdu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EBAC93D15DEAFE400BEAA6F /* Release */,
+				0EBAC93E15DEAFE400BEAA6F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EBAC92515DEAFE400BEAA6F /* Project object */;
+}
