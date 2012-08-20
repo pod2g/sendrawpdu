@@ -1,1 +1,6 @@
 CLI tool to send raw SMS PDU data to the iPhone 4 baseband
+
+Prerequisite :
+- Mac OS X > 10.6
+- Xcode > 4.0
+- iosopendev (http://www.iosopendev.com)
