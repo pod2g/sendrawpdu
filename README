@@ -4,3 +4,7 @@ Prerequisite :
 - Mac OS X > 10.6
 - Xcode > 4.0
 - iosopendev (http://www.iosopendev.com)
+
+TO USE IT : from your iphone in terminal type : sendrawpdu yourpdudata
+
+
